@@ -25,17 +25,22 @@ export default function({}: Props) {
         className="flex flex-row items-center">
         <SocialIcon
           url="https://twitter.com/rod_jacx"
-          fgColor="grey"
+          fgColor="#eabfb9"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://twitter.com/rod_jacx"
-          fgColor="grey"
+          url="https://www.instagram.com/rodjacx_/"
+          fgColor="#eabfb9"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://twitter.com/rod_jacx"
-          fgColor="grey"
+          url="https://github.com/v-jacx"
+          fgColor="#eabfb9"
+          bgColor="transparent"
+        />
+        <SocialIcon
+          url="https://www.linkedin.com/in/jacquelinvelasquez/"
+          fgColor="#eabfb9"
           bgColor="transparent"
         />
       </motion.div>
@@ -53,14 +58,14 @@ export default function({}: Props) {
         transition={{
             duration: 1.5
         }}
-        className='flex flex-row items-center text-gray-300 cursor-pointer'>
+        className='flex flex-row items-center text-[#eabfb9] cursor-pointer'>
         <SocialIcon
           className="cursor-pointer"
           network="email"
-          fgColor="grey"
+          fgColor="#eabfb9"
           bgColor="transparent"
         />
-        <p className='uppercase hidden md:inline-flex text-sm text-gray-500'>Contact Me</p>
+        <p className='uppercase hidden md:inline-flex text-sm text-[#eabfb9]'>Contact Me</p>
       </motion.div>
     </header>
   );
