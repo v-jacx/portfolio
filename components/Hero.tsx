@@ -24,15 +24,15 @@ const Hero = (props: Props) => {
         <Image
         className="relative rounded-full mx-auto  object-cover rotate-45"
         src='/IMG_1318.jpg' alt='Picture of Jacquelin Velasquez'
-        width= {120}
-        height={120}/>
+        width= {125}
+        height={125}/>
         <div className='z-20'>
             <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[12px]'>
                 Software Engineer
             </h2>
 
             <h1 className='text-4xl lg:text-5xl font-semibold px-10'>
-                <span>{text}</span>
+                <span className='mr-3'>{text}</span>
                 <Cursor cursorColor="#a26d5d" />
             </h1> 
             <div className='pt-4'>
