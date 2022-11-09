@@ -11,7 +11,7 @@ const Hero = (props: Props) => {
     words: [
         "Hi! Jacquelin Velasquez here 👋🏽",
         "Girl-in-love-with-coffee.tsx",
-        "<ButLovesCodingCoolThingsMore />",
+        "<AndLovesCodingEvenMore />",
     ],
     loop: true,
     delaySpeed: 2000,

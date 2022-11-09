@@ -33,8 +33,8 @@ const About = (props: Props) => {
                 x: 0
             }}
             viewport={{ once: true}}
-            src='/IMG_3517.jpg'
-            className='-mb-20 md:mb-0 flex-shrink-0 w-[10rem] h-[10rem] rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]'
+            src='/about_image.jpeg'
+            className='mb-15 mt-32 md:mt-0 md:mb-0 flex-shrink-0 w-[10rem] h-[10rem] rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]'
         />
 
         <div className='space-y-10 px-0 md:px-10'>
